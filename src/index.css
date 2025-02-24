@@ -6,6 +6,9 @@
   --purple: #AD00FF;
   --blue: #2489FF;
   --border: #334155;
+  --light-text: #64748B;
+  --label-bg: #334155;
+  --label-text: #CBD5E1;
 }
 
 body {
@@ -19,6 +22,5 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Inconsolata", serif;
 }
