@@ -1,10 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #0F172A;
+  --primary-white: #ffffff;
+  --purple: #AD00FF;
+  --blue: #2489FF;
+  --border: #334155;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Plus Jakarta Sans", serif;
+  color: var(--primary-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 code {
