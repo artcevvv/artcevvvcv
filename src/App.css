@@ -11,6 +11,7 @@
     height: 100vh;
     justify-content: center;
     border-bottom: 0.5px solid var(--border);
+    overflow-x: hidden;
 }
 
 .hero__main-section_1 {
@@ -119,7 +120,7 @@
 .sectiontwo__text {
     font-size: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 70% 25%;
     gap: 1rem;
 }
 
@@ -141,7 +142,6 @@
 .skills {
     display: flex;
     gap: 8px;
-    margin-top: 8px;
 }
 
 .skill {
@@ -154,7 +154,6 @@
 }
 
 .made {
-    margin-top: 12px;
     font-size: 1rem;
     list-style: disc;
 }
@@ -162,4 +161,34 @@
 .made ul {
     list-style: circle;
     margin-left: 1rem;
+}
+
+.text__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.ui__button-icon {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: grey;
+    border-radius: 24px;
+    color: white;
+    font-size: 1rem;
+}
+
+.role__skills {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ui__button-icon svg {
+    width: 24px;
+    height: 24px;
+    color: white;
 }

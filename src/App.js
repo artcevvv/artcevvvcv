@@ -1,6 +1,6 @@
 import "./App.css";
-import Hero from "./components/Hero";
-import SectionTwo from "./components/SectionTwo";
+import Hero from "./components/layout/Hero";
+import SectionTwo from "./components/layout/SectionTwo";
 
 function App() {
   return (

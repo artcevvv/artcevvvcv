@@ -28,26 +28,40 @@ function Hero() {
 
           <div className="section_2-subsection">
             <IoIosMail className="hero__main-icon" />
-            <p className="hero__main-icon_text">artcevvv@gmail.com</p>
+            <a
+              href="mailto:work.artcevvv@gmail.com"
+              className="hero__main-icon_text"
+            >
+              work.artcevvv@gmail.com
+            </a>
           </div>
         </div>
         <div className="hero__main-section_3">
-          <div className="section_3-subsection section_3-subsection_1">
+          <a
+            href="artcevvv.io"
+            className="section_3-subsection section_3-subsection_1"
+          >
             <FaInternetExplorer />
             <p className="section__3-text">artcevvv.io</p>
-          </div>
-          <div className="section_3-subsection section_3-subsection_2">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/artcevvv/"
+            className="section_3-subsection section_3-subsection_2"
+          >
             <FaLinkedin />
             <p className="section__3-text">/artcevvv</p>
-          </div>
-          <div className="section_3-subsection section_3-subsection_3">
+          </a>
+          <a
+            href="https://github.com/artcevvv"
+            className="section_3-subsection section_3-subsection_3"
+          >
             <FaGithub />
             <p className="section__3-text">/artcevvv</p>
-          </div>
-          <div className="section_3-subsection section_3-subsection_4">
+          </a>
+          <a href="https://t.me/evildild0" className="section_3-subsection section_3-subsection_4">
             <FaTelegram />
-            <p className="section__3-text">/artcevvv</p>
-          </div>
+            <p className="section__3-text">/evildild0</p>
+          </a>
         </div>
       </div>
     </div>
